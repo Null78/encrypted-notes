@@ -28,7 +28,7 @@ def get(id: int, password: str):
 def create(content: str, password: str):
     cipher, iv = aes.encrypt(password, content)
     id = db.insert(cipher, iv)
-    note = db.get(id);
+    note = db.get(id)
     console.print(Padding("Note created successfully", (1, 1), style="green"))
     helpers.print_one(note, console, password)
 
