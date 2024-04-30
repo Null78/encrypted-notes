@@ -54,9 +54,9 @@ python main.py delete <id> <password>
 ```
 
 ### Note
-- Replace <password> with your chosen password for encryption and decryption.
-- Replace <content> with the content of your note enclosed in double quotes.
-- Replace <id> with the ID of the note you want to retrieve, update, or delete.
+- Replace \<password> with your chosen password for encryption and decryption.
+- Replace \<content> with the content of your note enclosed in double quotes.
+- Replace \<id> with the ID of the note you want to retrieve, update, or delete.
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or pull requests for any improvements or features you'd like to see added.
